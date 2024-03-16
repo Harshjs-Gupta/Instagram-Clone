@@ -119,6 +119,7 @@ form {
   left: 40px;
   border: none;
   color: white;
+  cursor: pointer;
   background-color: rgb(76, 181, 249);
   border-radius: 10px;
 }
