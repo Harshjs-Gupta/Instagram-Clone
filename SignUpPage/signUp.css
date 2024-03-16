@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: grey;
+  border-color: white;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+}
+
+.signUp-container {
+  height: 670px;
+  width: 350px;
+  position: absolute;
+  top: 15px;
+  left: 500px;
+  border: 1px solid rgb(175, 175, 175);
+}
+
+i {
+  font-weight: 900;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+  font-family: cursive;
+}
+
+#information1 {
+  font-size: 17px;
+  position: absolute;
+  top: 110px;
+  left: 55px;
+  color: grey;
+  font-weight: 500;
+}
+
+#signUp-with-fcebook {
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  position: absolute;
+  top: 170px;
+  left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(24, 119, 242);
+}
+
+#facebookLogin {
+  color: white;
+  font-weight: 700;
+}
+
+#Or {
+  position: absolute;
+  top: 210px;
+  left: 60px;
+}
+
+form {
+  display: grid;
+  margin-top: 180px;
+}
+
+#phoneEmail,
+#fullName,
+#userName,
+#passWord1 {
+  height: 40px;
+  width: 270px;
+  margin-left: 40px;
+  padding-left: 10px;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(175, 175, 175);
+}
+
+#information2,
+#information3 {
+  font-size: 12px;
+  position: absolute;
+  top: 465px;
+  left: 35px;
+  color: grey;
+  font-weight: 500;
+}
+
+#information3 {
+  position: absolute;
+  top: 550px;
+  left: 35px;
+}
+
+#learnMore,
+#terms,
+#cookies {
+  color: blue;
+}
+
+#SignUpbtn {
+  height: 40px;
+  width: 270px;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  top: 600px;
+  left: 40px;
+  border: none;
+  color: white;
+  background-color: rgb(76, 181, 249);
+  border-radius: 10px;
+}
+
+.going-to-logIn-page {
+  height: 80px;
+  width: 350px;
+  border: 0.5px solid rgb(175, 175, 175);
+  position: absolute;
+  top: 700px;
+  left: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loginBtn {
+  color: rgb(76, 181, 249);
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+span {
+  position: absolute;
+  top: 790px;
+  left: 630px;
+}
+
+#appStore {
+  height: 100px;
+  width: 350px;
+  position: absolute;
+  top: 820px;
+  left: 500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.about {
+  font-size: 13px;
+  height: 50px;
+  width: 1200px;
+  position: absolute;
+  top: 900px;
+  left: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#version {
+  font-size: 13px;
+  height: 50px;
+  width: 300px;
+  position: absolute;
+  top: 950px;
+  left: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
