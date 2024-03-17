@@ -29,6 +29,14 @@ const showSearchBar = function () {
     reelsBtn.style.width = "40px";
     messageBtn.style.height = "40px";
     messageBtn.style.width = "40px";
+    notificationBtn.style.height = "40px";
+    notificationBtn.style.width = "40px";
+    createBtn.style.height = "40px";
+    createBtn.style.width = "40px";
+    profileBtn.style.height = "40px";
+    profileBtn.style.width = "40px";
+    moreBtn.style.height = "40px";
+    moreBtn.style.width = "40px";
 
     // instaIcon.classList.remove("hiddenInstagramIcon");
     // document.getElementById("instagram").style.display = " ";
@@ -45,6 +53,14 @@ const showSearchBar = function () {
     reelsBtn.style.width = "200px";
     messageBtn.style.height = "37px";
     messageBtn.style.width = "200px";
+    notificationBtn.style.height = "37px";
+    notificationBtn.style.width = "200px";
+    createBtn.style.height = "37px";
+    createBtn.style.width = "300px";
+    profileBtn.style.height = "37px";
+    profileBtn.style.width = "200px";
+    moreBtn.style.height = "37px";
+    moreBtn.style.width = "200px";
 
     // instaIcon.classList.add("hiddenInstagramIcon");
   }
