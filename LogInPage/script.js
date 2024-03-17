@@ -9,7 +9,7 @@ document.querySelector("#LogIn").addEventListener("click", function (e) {
   } else if (email === "7667045966" && password === "gupta88911@") {
     // Redirect to home.html page
     location.href = "/HomePage/home.html";
-  } else if (email !== "7667045966" && password !== "gupta88911@") {
+  } else if (email !== "7667045966" || password !== "gupta88911@") {
     // Redirect to home.html page
     alert("Please enter  valid credentials");
   }
