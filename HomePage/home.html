@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link
+      rel="website icon"
+      type="png"
+      href="/InstagramLogo/Instagramlogo.webp"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <!-- Side/Menu bar -->
+    <div class="menu-bar">
+      <pre id="instagram">Instagram</pre>
+      <i class="fa-brands fa-instagram hiddenInstagramIcon"></i>
+
+      <a href="/HomePage/home.html" id="home-btn"
+        ><i class="fa-solid fa-house"></i>Home
+      </a>
+
+      <a href="#" id="search-btn"
+        ><i class="fa-solid fa-magnifying-glass"></i> Search</a
+      >
+
+      <a href="#" id="explore-btn"
+        ><i class="fa-regular fa-compass"></i> Explore</a
+      >
+
+      <a href="#" id="reels-btn"><i class="fa-solid fa-video"></i>Reels </a>
+
+      <a href="#" id="messages-btn"
+        ><i class="fa-solid fa-envelope"></i> Messages</a
+      >
+
+      <a href="#" id="notification-btn"
+        ><i class="fa-regular fa-heart"></i>Notifications</a
+      >
+
+      <a href="#" id="create-btn"
+        ><i class="fa-regular fa-square-plus"></i> Create</a
+      >
+
+      <a href="#" id="profile-btn">
+        <img src="/Images/myImage.jpg" class="MyPicture">
+        Profile</a
+      >
+
+      <a href="#" id="more-btn"> <i class="fa-solid fa-bars"></i>More</a>
+    </div>
+    <div class="search-bar search">
+      <h2>Search</h2>
+      <i class="fa-solid fa-magnifying-glass" id="search-bar-icon"></i>
+      <input  type="search" placeholder="Search" id="searchInput"/>
+      <div id="recent-search">
+        <h4>Recent</h4>
+        <span>No recent searchs.</span>
+      </div>
+    </div>
+    <div class="moreMenu hidden">
+      <a href="#" id="setting"><i class="fa-solid fa-gear"></i>Settings</a>
+      <br />
+      <a href="#" id="activity"
+        ><i class="fa-solid fa-chart-line"></i>Your activity</a
+      >
+      <br />
+      <a href="#" id="saved"><i class="fa-regular fa-bookmark"></i>Saved</a>
+      <br />
+      <a href="#" id="appearance"
+        ><i class="fa-sharp fa-regular fa-moon"></i>Switch appearance</a
+      >
+      <br />
+      <a href="#" id="report"
+        ><i class="fa-solid fa-circle-exclamation"></i>Report a problem</a
+      >
+      <div id="ThreadBtn">
+        <a href="#">@ Threads</a>
+      </div>
+      <a href="#" id="switch">Switch accounts</a>
+      <hr />
+      <a href="#" id="LogOut">Log out</a>
+    </div>
+    <header>
+      <div class="people">
+        <a href="#" id="people1"></a><img src="/ProfileImage/mahi.png" alt="" /></a>
+      </div>
+      <a href="#" id="peopleName1">mahi_d045</a>
+      <div class="people"></div>
+      <div class="people"></div>
+      <div class="people"></div>
+      <div class="people"></div>
+      <div class="people"></div>
+      <div class="people"></div>
+      <div class="people"></div>
+    </header>
+    <main>
+      <div class="Home-reel-container">
+        <div id="profile1">
+          <a href="#" id="userlink1"
+            ><img src="/ProfileImage/mahi.png" alt=""
+          /></a>
+        </div>
+        <a href="#" id="profile1-name">mahi_d045</a>
+        <span id="profile1-audio"> Original audio</span>
+        <i class="fa-solid fa-ellipsis "></i>
+        <div class="video1">
+          <iframe width="300px" height="100%" src="https://www.instagram.com/reel/C4hkAaSLzbV/?utm_source=ig_web_copy_link"></iframe>
+        </div>
+      </div>
+    </main>
+    <div class="suggestion-container">
+         <div id="profile-switch-container">
+            <a href="#" id="switch-profile"> <img src="/Images/myImage.jpg"/> </a>
+            <a href="#" id="username">harshgupta8031</a>
+            <span id="name">🚩HARSH GUPTA🚩</span>
+            <b id="switch-btn">Switch</b>
+         </div>
+         <div class="suggestionBox">
+          <div id="suggested-for-you">
+            <span>Suggested for you</span>
+            <a href="#" id="SeeAll">See all</a>
+          </div>
+          <div class="container-one-for-suggestion">
+            <a href="#" id="suggestion1"> <img src="/Images/myImage.jpg" > </a>
+            <a href="#" id="suggestion-name-one" >harshgupta8031</a>
+            <br>
+            <span id="suggestion-followers-one" >Followed by chandamanishgupta</span>
+            <b id="follow-suggested-people-one">Follow</b>
+          </div>
+          <div class="container-two-for-suggestion">
+            <a href="#" id="suggestion1"> <img src="/Images/myImage.jpg" > </a>
+            <a href="#" id="suggestion-name-one" >harshgupta8031</a>
+            <br>
+            <span id="suggestion-followers-one" >Followed by chandamanishgupta</span>
+            <b id="follow-suggested-people-one">Follow</b>
+          </div>
+           <div class="container-three-for-suggestion">
+            <a href="#" id="suggestion1"> <img src="/Images/myImage.jpg" > </a>
+            <a href="#" id="suggestion-name-one" >harshgupta8031</a>
+            <br>
+            <span id="suggestion-followers-one" >Followed by chandamanishgupta</span>
+            <b id="follow-suggested-people-one">Follow</b>
+          </div>
+          <div class="container-four-for-suggestion">
+            <a href="#" id="suggestion1"> <img src="/Images/myImage.jpg" > </a>
+            <a href="#" id="suggestion-name-one" >harshgupta8031</a>
+            <br>
+            <span id="suggestion-followers-one" >Followed by chandamanishgupta</span>
+            <b id="follow-suggested-people-one">Follow</b>
+          </div>
+          <div class="container-five-for-suggestion">
+            <a href="#" id="suggestion1"> <img src="/Images/myImage.jpg" > </a>
+            <a href="#" id="suggestion-name-one" >harshgupta8031</a>
+            <br>
+            <span id="suggestion-followers-one" >Followed by chandamanishgupta</span>
+            <b id="follow-suggested-people-one">Follow</b>
+          </div>
+          <div id="about-container">
+            <a href="#" class="help" >About.</a>
+            <a href="#" class="help" >Help.</a>
+            <a href="#" class="help" >Press.</a>
+            <a href="#" class="help" >API.</a>
+            <a href="#" class="help" >Jobs.</a>
+            <a href="#" class="help" >Privacy.</a>
+            <a href="#" class="help" >Terms.</a>
+            <a href="#" class="help" >Locations.</a>
+            <a href="#" class="help" >Language.</a>
+            <a href="#" class="help" >Meta Verified.</a>
+          </div>
+          <span id="meta-version">© 2024 INSTAGRAM FROM META</span>
+         </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
