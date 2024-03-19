@@ -77,3 +77,23 @@ const showMoreMenu = function () {
 moreBtn.addEventListener("click", showMoreMenu);
 
 searchBtn.addEventListener("click", showSearchBar);
+
+const likeButton = document.querySelector(".likeButton1");
+
+const like = function () {
+  if (likeButton.style.backgroundColor !== "red") {
+    likeButton.style.backgroundColor = "red";
+  } else {
+    likeButton.style.backgroundColor = "transparent";
+  }
+};
+
+likeButton.addEventListener("click", like);
+
+const explore = document.getElementById("explore-btn");
+
+const openExplorePage = function () {
+  window.location.href = "/ExplorePage/explore.html";
+};
+
+explore.addEventListener("click", openExplorePage);
