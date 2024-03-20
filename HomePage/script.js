@@ -89,11 +89,3 @@ const like = function () {
 };
 
 likeButton.addEventListener("click", like);
-
-const explore = document.getElementById("explore-btn");
-
-const openExplorePage = function () {
-  window.location.href = "/ExplorePage/explore.html";
-};
-
-explore.addEventListener("click", openExplorePage);
