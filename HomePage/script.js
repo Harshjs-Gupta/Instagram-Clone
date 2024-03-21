@@ -89,3 +89,15 @@ const like = function () {
 };
 
 likeButton.addEventListener("click", like);
+
+const createBox = document.querySelector(".createHidden");
+
+const showCreateBox = function () {
+  if (createBox.classList.contains("createHidden")) {
+    createBox.classList.remove("createHidden");
+  } else {
+    createBox.classList.add("createHidden");
+  }
+};
+
+createBtn.addEventListener("click", showCreateBox);
