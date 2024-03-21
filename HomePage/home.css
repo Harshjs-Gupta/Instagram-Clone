@@ -21,7 +21,7 @@ body {
 
 .menu-bar {
   height: 100dvh;
-  width: 230px;
+  width: 245px;
   border-right: 0.5px solid rgb(63, 62, 62);
   display: grid;
   /* padding-left: 20px;s */
@@ -44,10 +44,6 @@ pre {
   position: absolute;
   top: 30px;
   left: 15px;
-}
-
-.hiddenInstagramIcon {
-  display: none;
 }
 
 i {
@@ -144,6 +140,19 @@ i {
   z-index: 1;
   left: 50px;
   border-radius: 10px;
+  animation: slidRightWard 1s ease-in-out forwards;
+}
+
+@keyframes slidRightWard {
+  0% {
+    transform: translateX(-400px);
+  }
+  90% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .search {
@@ -195,6 +204,63 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.create-container {
+  height: 423px;
+  width: 381px;
+  background-color: #262626;
+  position: absolute;
+  top: 85px;
+  left: 482px;
+  border-radius: 10px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createHidden {
+  display: none;
+}
+
+#newPost {
+  height: 42px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.5px solid #363636;
+}
+
+.fa-photo-film {
+  font-size: 70px;
+  position: absolute;
+  top: 150px;
+}
+
+#drag-photo {
+  font-size: 20px;
+  font-weight: 100;
+  position: absolute;
+  top: 250px;
+  color: white;
+}
+
+#selectBtn {
+  height: 32px;
+  width: 169px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #0095f6;
+  position: absolute;
+  top: 300px;
+  border-radius: 10px;
+  border: none;
 }
 
 .moreMenu {
@@ -289,7 +355,7 @@ header {
   left: 230px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
   /* border: 1px solid rgb(53, 52, 52); */
 }
 
@@ -297,8 +363,7 @@ header {
   height: 66px;
   width: 66px;
   position: relative;
-  top: 10px;
-  left: 30px;
+  left: 46px;
   border-radius: 50px;
   display: flex;
   overflow: hidden;
@@ -315,23 +380,23 @@ header {
   font-size: 12px;
   color: #a8a8a8;
   position: absolute;
-  top: 100px;
-  left: 40px;
+  top: 90px;
+  left: 50px;
 }
 
 #peopleName2 {
   font-size: 12px;
   color: #a8a8a8;
   position: absolute;
-  top: 100px;
-  left: 120px;
+  top: 90px;
+  left: 130px;
 }
 
 #peopleName3 {
   font-size: 12px;
   color: #a8a8a8;
   position: absolute;
-  top: 100px;
+  top: 90px;
   left: 210px;
 }
 
@@ -339,7 +404,7 @@ header {
   font-size: 12px;
   color: #a8a8a8;
   position: absolute;
-  top: 100px;
+  top: 90px;
   left: 290px;
 }
 
@@ -347,32 +412,32 @@ header {
   font-size: 12px;
   color: #a8a8a8;
   position: absolute;
-  top: 100px;
-  left: 380px;
+  top: 90px;
+  left: 370px;
 }
 
 #peopleName6 {
   font-size: 12px;
   color: #a8a8a8;
   position: absolute;
-  top: 100px;
-  left: 460px;
+  top: 90px;
+  left: 450px;
 }
 
 #peopleName7 {
   font-size: 12px;
   color: #a8a8a8;
   position: absolute;
-  top: 100px;
-  left: 550px;
+  top: 90px;
+  left: 530px;
 }
 
 #peopleName8 {
   font-size: 12px;
   color: #a8a8a8;
   position: absolute;
-  top: 100px;
-  left: 635px;
+  top: 90px;
+  left: 620px;
 }
 
 img {
@@ -547,11 +612,11 @@ img {
 }
 
 #switch-profile {
-  height: 55px;
-  width: 55px;
+  height: 51px;
+  width: 51px;
   /* border: 0.5px solid #262626; */
   position: absolute;
-  top: 35px;
+  top: 30px;
   left: 10px;
   display: flex;
   border-radius: 50%;
@@ -561,12 +626,12 @@ img {
 #username {
   font-weight: 600;
   position: absolute;
-  top: 40px;
+  top: 30px;
   left: 90px;
 }
 #name {
   position: absolute;
-  top: 60px;
+  top: 50px;
   left: 90px;
 }
 
@@ -574,7 +639,7 @@ img {
   color: #0095f6;
   cursor: pointer;
   position: absolute;
-  top: 50px;
+  top: 40px;
   right: 30px;
   font-size: 13px;
 }
