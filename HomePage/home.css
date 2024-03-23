@@ -16,6 +16,7 @@ body {
   width: 100%;
   background-color: black;
   position: relative;
+  scrollbar-color: #7a7979 #363636;
   /* overflow-x: hidden; */
 }
 
@@ -59,8 +60,8 @@ i {
 #create-btn,
 #profile-btn,
 #more-btn {
-  height: 37px;
-  width: 200px;
+  height: 42px;
+  width: 220px;
   display: inline-flex;
   align-items: center;
   gap: 20px;
