@@ -16,6 +16,7 @@ body {
   width: 100%;
   background-color: black;
   position: relative;
+  scrollbar-color: #7a7979 #363636;
   /* overflow-x: hidden; */
 }
 
