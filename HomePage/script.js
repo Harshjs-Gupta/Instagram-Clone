@@ -56,7 +56,7 @@ const showSearchBar = function () {
     notificationBtn.style.height = "37px";
     notificationBtn.style.width = "200px";
     createBtn.style.height = "37px";
-    createBtn.style.width = "300px";
+    createBtn.style.width = "200px";
     profileBtn.style.height = "37px";
     profileBtn.style.width = "200px";
     moreBtn.style.height = "37px";
@@ -77,18 +77,6 @@ const showMoreMenu = function () {
 moreBtn.addEventListener("click", showMoreMenu);
 
 searchBtn.addEventListener("click", showSearchBar);
-
-const likeButton = document.querySelector(".likeButton1");
-
-const like = function () {
-  if (likeButton.style.backgroundColor !== "red") {
-    likeButton.style.backgroundColor = "red";
-  } else {
-    likeButton.style.backgroundColor = "transparent";
-  }
-};
-
-likeButton.addEventListener("click", like);
 
 const createBox = document.querySelector(".createHidden");
 
